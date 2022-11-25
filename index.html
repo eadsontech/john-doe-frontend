@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe Web Dev Portfolio Website</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+            rel="stylesheet">
+<!-- style -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo2.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="handburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>John Doe</strong> 
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Frontend Developer</p>
+        <img src="./images/john doe.jpg" alt="" class="intro__img">
+    </section>
+    <!-- my services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services-center">
+            <!-- single service -->
+            <div class="service">
+                <i class="fas fa-pencil-ruler fa-2x"></i>
+                <h4>Web Design</h4>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo itaque suscipit aliquid iusto deserunt voluptatibus perspiciatis exercitationem, similique delectus.</p>
+            </div>
+            <!-- end of single service -->
+            <!-- single service -->
+            <div class="service">
+                <i class="fas fa-code fa-2x"></i>
+                <h4>Web Development</h4>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo itaque suscipit aliquid iusto deserunt voluptatibus perspiciatis exercitationem, similique delectus.</p>
+            </div>
+            <!-- end of single service -->
+            <!-- single service -->
+            <div class="service">
+                <i class="fab fa-sketch fa-2x"></i>
+                <h4>Graphic Design</h4>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo itaque suscipit aliquid iusto deserunt voluptatibus perspiciatis exercitationem, similique delectus.</p>
+            </div>
+            <!-- end of single service -->
+        </div>
+        <a href="#work" class="btn">My work</a>
+    </section>
+    <!-- about -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Frontend Developer || UI UX Designer</p>
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, aut. Autem quibusdam dolores doloremque reprehenderit alias laboriosam ratione adipisci dignissimos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eos suscipit earum ea nobis eum, tenetur quae aliquam doloremque, itaque, consequuntur possimus deserunt! Debitis aperiam nihil fugiat, eos magnam atque?</p>
+        </div>
+        <img src="./images/john doe.jpg" alt="" class="about-me__img">
+    </section>
+    <!-- counters -->
+    <section class="counters">
+        <div class="counter-container">
+            <div>
+                <i class="fas fa-code fa-4x"></i>
+                <div class="counter" data-target="750">0</div>
+                <h3>Projects</h3>
+            </div>
+            <div>
+                <i class="fas fa-calendar-alt fa-4x"></i>
+                <div class="counter" data-target="15">0</div>
+                <h3>Years</h3>
+            </div>
+            <div>
+                <i class="fas fa-users fa-4x"></i>
+                <div class="counter" data-target="150">0</div>
+                <h3>Clients</h3>
+            </div>
+            <div>
+                <i class="fas fa-trophy fa-4x"></i>
+                <div class="counter" data-target="20">0</div>
+                <h3>Awards</h3>
+            </div>
+        </div>
+    </section>
+    <!-- timeline -->
+    <section class="timeline-container">
+        <h2 class="section__title section__title--timeline">Timeline</h2>
+        <p class="section__subtitle section__subtitle--timeline">My Work Process</p>
+        <div class="timeline">
+            <ul>
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-bullseye-arrow fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>Plan & Strategy</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase One - 2 Days</h4>
+                        </div>
+                    </div>
+                </li>
+                <!-- end of timeline item -->
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-file-contract fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>Analysis & Planning</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase Two - 2 Days</h4>
+                        </div>
+                    </div>
+                </li>
+                <!-- end of timeline item -->
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-pencil-ruler fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>UI UX Design</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase Three - 3 Days</h4>
+                        </div>
+                    </div>
+                </li>
+                <!-- end of timeline item -->
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-laptop-code fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>Development</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase Four - 3 Days</h4>
+                        </div>
+                    </div>
+                </li>
+                <!-- end of timeline item -->
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-ballot-check fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>Testing</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase Five - 1 Day</h4>
+                        </div>
+                    </div>
+                </li>
+                <!-- end of timeline item -->
+                <!-- timeline item -->
+                <li>
+                    <div class="content">
+                        <div class="flex-items">
+                            <div class="timeline-img"><i class="fas fa-paper-plane fa-3x"></i></div>
+                            <div class="timeline-text">
+                                <h3>Deployment</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque at aut error incidunt soluta eos debitis tenetur, veniam molestias!</p>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h4>Phase Six - 1 Day</h4>
+                        </div>
+                    </div>
+                </li>
+                <div style="clear:both;"></div>
+                <!-- end of timeline item -->
+            </ul>
+        </div>
+    </section>
+    <!-- my work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Portfolio</h2>
+        <p class="section__subtitle section__subtitle--work">A Collection of My Recent Works</p>
+        <div class="portfolio">
+            <div class="projects-center">
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-1">
+                    <div class="project">
+                        <img src="./images/portfolio1.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-2">
+                    <div class="project">
+                        <img src="./images/portfolio2.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-3">
+                    <div class="project">
+                        <img src="./images/portfolio3.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-4">
+                    <div class="project">
+                        <img src="./images/portfolio4.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-5">
+                    <div class="project">
+                        <img src="./images/portfolio5.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-6">
+                    <div class="project">
+                        <img src="./images/portfolio6.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="portfolio-item.html" class="project-7">
+                    <div class="project">
+                        <img src="./images/portfolio7.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="project.html" class="project-8">
+                    <div class="project">
+                        <img src="./images/portfolio8.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+                <!-- single project -->
+                <a href="project.html" class="project-9">
+                    <div class="project">
+                        <img src="./images/portfolio9.jpg" alt="single project" class="project-img">
+                        <div class="project-info">
+                            <h4>Project title</h4>
+                            <p>Client Name</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- end of single project -->
+            </div>
+        </div>
+    </section>
+    <!-- quote form and contact details -->
+    <section class="contact" id="contact">
+        <h2 class="section__title section__title--contact">Contact</h2>
+        <p class="section__subtitle section__subtitle--contact">Get in Touch</p>
+        <div class="contact-container">
+            <p class="contact-intro">Fill the form below with details and relevant information about your project and we will get back to your in no distant time. </p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h4>Get A Quote</h4>
+                    <form >
+                        <div class="input-row">
+                            <div class="input-group">
+                                
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="input-group">
+                                
+                                <input type="text" placeholder="Company Name">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                
+                                <input type="email" placeholder="Your Valid Email">
+                            </div>
+                            <div class="input-group">
+                                
+                                <input type="text" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <textarea rows="10" placeholder="Describe your project"></textarea>
+                        <button type="submit" class="quote-btn">Get A Quote</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h4>Our Contact</h4>
+                    <div class="contact-items">
+                        <div class="contact-details">
+                            <div class="contact-icon"><i class="far fa-envelope fa-2x"></i></div>
+                            <div class="contact-text">
+                                <h5>Email</h5>
+                                <p>contact@eadson.com amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="contact-details">
+                            <div class="contact-icon"><i class="far fa-phone fa-2x"></i></div>
+                            <div class="contact-text">
+                                <h5>Phone</h5>
+                                <p>+234 805 245 2885 <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="contact-details">
+                            <div class="contact-icon"><i class="far fa-phone fa-2x"></i></div>
+                            <div class="contact-text">
+                                <h5>Office</h5>
+                                <p>Eadson Technologies Limited, 1, VGC Complex, P.O Box 3245, Lagos Nigeria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials -->
+    <section class="testimonials-section">
+        <div class="testimonials">
+            <div class="inner">
+                <h2>What my clients are saying</h2>
+                <p>Voluptates consequuntur error quasi sapiente quas deleniti impedit voluptatem delectus aliquid numquam tempore odio, possimus cum totam mollitia blanditiis consectetur, nostrum eaque.</p>
+                <div class="border"></div>
+                <div class="row">
+                    <!-- testimonial item -->
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="./images/testimonial1.jpg" alt="">
+                            <div class="name">Ade Kay</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Saepe dolor esse maxime odit necessitatibus voluptatibus fugit sapiente ullam nam quae sunt officiis ab dolorum, placeat, illo ipsam omnis dicta laboriosam animi non nihil magni inventore.</p>
+                        </div>
+                    </div>
+                    <!-- end of testimonial item -->
+                    <!-- testimonial item -->
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="./images/testimonial2.jpg" alt="">
+                            <div class="name">Mike Wales</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Saepe dolor esse maxime odit necessitatibus voluptatibus fugit sapiente ullam nam quae sunt officiis ab dolorum, placeat, illo ipsam omnis dicta laboriosam animi non nihil magni inventore.</p>
+                        </div>
+                    </div>
+                    <!-- end of testimonial item -->
+                    <!-- testimonial item -->
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="./images/testimonial3.jpg" alt="">
+                            <div class="name">Thomson Barber</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Saepe dolor esse maxime odit necessitatibus voluptatibus fugit sapiente ullam nam quae sunt officiis ab dolorum, placeat, illo ipsam omnis dicta laboriosam animi non nihil magni inventore.</p>
+                        </div>
+                    </div>
+                    <!-- end of testimonial item -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section class="blog">
+        <h2 class="section__title section__title--blog">Blog</h2>
+        <p class="section__subtitle section__subtitle--blog">Latest News</p>
+        <div class="blog-center">
+            <!-- single article -->
+            <div class="card">
+                <!-- front of the card -->
+                <div class="card-side card-front">
+                    <img src="./images/portfolio1.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Web Design Tips</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo harum suscipit placeat commodi distinctio quidem fuga officia cupiditate optio sit alias qui, quibusdam temporibus error quod ad quasi consectetur.</p>
+                    </div>
+                </div>
+                <!-- card back -->
+                <div class="card-side card-back">
+                    <button class="blog-btn">Read More</button>
+                </div>
+            </div>
+            <!-- end of single article -->
+            <!-- single article -->
+            <div class="card">
+                <!-- front of the card -->
+                <div class="card-side card-front">
+                    <img src="./images/portfolio2.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Job Openings for Graphic Designers</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo harum suscipit placeat commodi distinctio quidem fuga officia cupiditate optio sit alias qui, quibusdam temporibus error quod ad quasi consectetur.</p>
+                    </div>
+                </div>
+                <!-- card back -->
+                <div class="card-side card-back">
+                    <button class="blog-btn">Read More</button>
+                </div>
+            </div>
+            <!-- end of single article -->
+            <!-- single article -->
+            <div class="card">
+                <!-- front of the card -->
+                <div class="card-side card-front">
+                    <img src="./images/portfolio3.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Best Practices in Design </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo harum suscipit placeat commodi distinctio quidem fuga officia cupiditate optio sit alias qui, quibusdam temporibus error quod ad quasi consectetur.</p>
+                    </div>
+                </div>
+                <!-- card back -->
+                <div class="card-side card-back">
+                    <button class="blog-btn">Read More</button>
+                </div>
+            </div>
+            <!-- end of single article -->
+            <!-- single article -->
+            <div class="card">
+                <!-- front of the card -->
+                <div class="card-side card-front">
+                    <img src="./images/portfolio6.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Graphic Design Training </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo harum suscipit placeat commodi distinctio quidem fuga officia cupiditate optio sit alias qui, quibusdam temporibus error quod ad quasi consectetur.</p>
+                    </div>
+                </div>
+                <!-- card back -->
+                <div class="card-side card-back">
+                    <button class="blog-btn">Read More</button>
+                </div>
+            </div>
+            <!-- end of single article -->
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <!-- <a href="mailto:contact@johndoe.com" class="footer-link">contact@johndoe.com</a> -->
+        <ul class="social__list">
+            <li class="social-list__item">
+                <a href="" class="social-list__link"><i class="fab fa-codepen"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link"><i class="fab fa-facebook"></i></a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2021 - Eadson Technologies | All Rights Reserved</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
